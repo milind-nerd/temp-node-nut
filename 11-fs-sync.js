@@ -4,7 +4,7 @@
 
 const {
     readFile,
-    writeFile
+    writeFile 
 } = require('fs');
 
 //without UTF coding, you will get output like
