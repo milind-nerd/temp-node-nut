@@ -2,18 +2,27 @@
   "name": "tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "1-intro.js",
+  "main": "app.js",
+  "type": "module",
+ 
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js --exec babel-node",
     "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.2",
+    "request": "^2.88.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.21"
   }
 }

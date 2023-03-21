@@ -1,1 +1,23 @@
 First text file
+
+command to run npm automatic:
+npm run dev
+
+################################################################################
+for LinkedIn course:
+- mongoDB
+
+- mongoose js => npm i mongoose 
+
+- babel (to compile the latest JavaScript version for the browser to read) => 
+npm i --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
+After running above command, create configuration file for babel => .babelrc
+
+ /* Old coding for project.json
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  */
+  /*Changes for LinkedIn course Line 13-16*/
+################################################################################

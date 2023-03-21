@@ -1,5 +1,5 @@
 import express from 'express';
-import routes from './routes/crmRoutes.js'
+import routes from './routes/crmRoutes'
 
 //run express server
 const app = express();

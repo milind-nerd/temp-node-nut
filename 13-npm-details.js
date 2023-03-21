@@ -17,7 +17,7 @@
 // However, external dependencies like Lodash, you first need to install it.
 // to install => npm i bootstrap OR npm i lodash
 
-const _ = require('lodash');
+const _ = require('lodash');    
 
 const items = [1, [2, [3, [4] ]]];
 
